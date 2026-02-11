@@ -6,6 +6,11 @@
 
 Исследование охватывает полный цикл: подготовку корпуса, параметро-эффективное дообучение (QLoRA), построение retrieval-архитектуры (RAG), подбор промптов, анализ поведения всех систем и количественную оценку качества.
 
+- **ai_doctor_RAG.ipynb** - построение RAG архитектуры
+- **ai-doctor-finetuning_preprocessing.ipynb** - подготовка корпусов для дооучения PEFT
+- **ai-doctor-finetuning_PEFT_QLoRA.ipynb** - проведение PEFT для Qwen2.5-3B на двух корпусах QA
+- **ai-doctor-complete.ipynb** - финальный comparative evaluation для всех гипотез
+
 ---
 
 ## Research Objectives
